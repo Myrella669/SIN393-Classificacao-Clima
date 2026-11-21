@@ -20,9 +20,9 @@ As imagens são redimensionadas para 224 × 224 e normalizadas com a média e o 
 
 O treinamento utiliza entropia cruzada, otimizador Adam com taxa de aprendizado de 0,001, lotes de 32 imagens e 5 épocas. A cada época, o modelo é avaliado na validação, e os pesos da melhor época são os usados no teste. A avaliação inclui matriz de confusão, acurácia, precisão, recall e F1-score, com média macro e média ponderada.
 
-## Instruções de Execução
+**Instruções de Execução**
 
-### Dependências
+**Dependências**
 
 O notebook foi desenvolvido para execução no Google Colab. As principais bibliotecas utilizadas são:
 
@@ -32,7 +32,7 @@ O notebook foi desenvolvido para execução no Google Colab. As principais bibli
 - `seaborn`
 - `kaggle`
 
-### Etapas para Execução
+**Etapas para Execução**
 
 1. Abra o notebook `Classificacao-Clima_codigo.ipynb` no Google Colab.
 2. Configure o ambiente de execução para utilizar GPU, se disponível.
@@ -40,6 +40,6 @@ O notebook foi desenvolvido para execução no Google Colab. As principais bibli
 4. Execute as células do notebook em sequência para baixar os dados, separar os conjuntos de treino, validação e teste e treinar os modelos.
 5. Ao final da execução, serão apresentadas as métricas de avaliação, as matrizes de confusão e exemplos de classificações corretas e incorretas.
 
-## Apresentação em Vídeo
+**Apresentação em Vídeo**
 
 [Insira aqui o link do vídeo de apresentação no YouTube.]
