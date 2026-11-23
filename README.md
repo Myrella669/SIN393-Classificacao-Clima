@@ -47,5 +47,4 @@ O notebook foi desenvolvido para execução no Google Colab. As principais bibli
 5. Ao final da execução, serão apresentadas as métricas de avaliação, as matrizes de confusão e os exemplos de classificações corretas e incorretas.
 
 **Vídeo de apresentação**
-
-[Inserir aqui o link do vídeo no YouTube.]
+https://youtu.be/qhVoQJQO7vk
